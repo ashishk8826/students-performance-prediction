@@ -1,4 +1,6 @@
 # students-performance-prediction
+
+
 This project ' Student’s Performance Prediction Using Nature Inspired Algorithms’ is a Research cum 
 development project. This project provides several techniques which tries to improve K-means clustering, 
 some techniques are like “Salp swarm Optimization”, "Chaotic Salp swarm", “Grey Wolf Optimization”, Etc.
@@ -19,7 +21,9 @@ to find out minimum score.
 
 
 Introduction
+
 1.1 General Introduction
+
 Clustering or cluster analysis is grouping of many objects in a way by which we can see that 
 objects in the same group are called a cluster and they are also we can visualize that more 
 similar in some sense to each other than to those in other groups clusters. There are mainly 
@@ -30,6 +34,7 @@ or You can make group of clusters and you can choose different clusters for
 classifying. For example, if you’re an animal store owner and you may want to 
 choose to Categorise your customer list by people who bought lion and/or mouse 
 products.
+
 • Density Clustering:- Density clustering is the type of clustering which groups the 
 data points by the category how densely populated they are. To group data which are 
 closely related data points so in this type of clustering this density clustering 
@@ -41,6 +46,7 @@ belongs to a cluster. Around each possible centroid distribution clustering algo
 defines the density distributions for each of the cluster, quantitating the probability 
 of possession based on those distributions the algorithm to increase efficiency of the 
 typical of the distributions to best represent the data.
+
 • Connectivity Clustering:- Unlike the other clustering techniques of clustering 
 analysis as reviewed above, connectivity clustering at first determines each data point 
 as its retaining cluster. The key assumption of this technique is that points nearer to 
@@ -51,6 +57,7 @@ each one is more related.
 1.2 Problem Statement
 Predicting Student’s Academic Performance Using Salp Swarm and Chaotic Salp Swarm 
 Algorithms and Grey Wolf Optimization.
+
 1.3 Significance
 Although K-means bunch algorithmic rule is straightforward and well-liked, it's an
 elementary disadvantage of falling into native optima that rely on the indiscriminately 
@@ -90,9 +97,9 @@ It is a method of vector quantization, originally from signal processing, that a
 to partition n observations into k clusters in which each observation belongs to 
 the cluster with the nearest mean (cluster centres or cluster centroid), serving as a 
 prototype of the cluster. This results in a partitioning of the data space into Voronoi cells. 
-It is popular for cluster analysis in data mining. k-means clustering minimizes withincluster variances (squared Euclidean distances), but not regular Euclidean distances, 
+It is popular for cluster analysis in data mining. k-means clustering minimizes within cluster variances (squared Euclidean distances), but not regular Euclidean distances, 
 which would be the more difficult.
-Nature Inspired Algorithm is a very active area of research is the design of natureinspired metaheuristics. Many recent metaheuristics, especially evolutionary 
+Nature Inspired Algorithm is a very active area of research is the design of nature inspired metaheuristics. Many recent metaheuristics, especially evolutionary 
 computation-based algorithms, are inspired by natural systems. Nature acts as a source 
 of concepts, mechanisms and principles for designing of artificial computing systems to 
 deal with complex computational problems. Such metaheuristics include simulated 
@@ -101,7 +108,7 @@ optimization. A large number of more recent metaphor-inspired metaheuristics hav
 started to attract criticism in the research community for hiding their lack of novelty 
 behind an elaborate metaphor.
 1.6 Comparison of existing approaches to the problem framed
-The integration of the k-Means algorithm with each one of the most recent natureinspired algorithms to overcome the drawback of the K-means algorithm which is falling 
+The integration of the k-Means algorithm with each one of the most recent nature inspired algorithms to overcome the drawback of the K-means algorithm which is falling 
 in the local optima and to maximize clusters integrity. The various researches done in 
 the areas of K-mean algorithm and it is concluded that when K-mean is used in 
 combination with the other optimization technique like Salp swarm algorithm, Grey wolf 
@@ -146,7 +153,6 @@ spatiality Reduction
 Dimensionality reduction aims to cut back the number of options - however not just by choosing a 
 sample of options from the feature-set, that are a few things else — Feature set choice or just 
 Feature choice. Conceptually, dimension refers to the number of geometric planes the dataset lies 
-29 | P a g e
 in, that may well be high most so it can't be pictured with pen and paper. a lot of the amount of 
 such planes, a lot of is that the quality of the dataset. In the dataset that have taken we've to perform 
 the spatiality reduction as a result of in our dataset there are a unit thirty-three attributes and lots 
@@ -174,11 +180,16 @@ Software Requirements
 5. Numpy
 6. Sklearn
 7. Jupyter Notebook and Spyder
+
+
 Hardware Requirements:
+
 Computer: - a pair of gigacycle minimum, multi-core processor
 Memory (RAM): - a minimum of 2GB, ideally higher
 Hard disk space: - a minimum of 128 GB
 Processor: - 64-bit
+
+
 3.5 Solution Approach
 Improved results of Student Performance Prediction and optimized exploitation three ways: -
 • Salp Swarm optimization: - SSA is one among the random population-based algorithms 
@@ -197,13 +208,16 @@ little space of the answer. whereas in PSO, it implies that all the particles me
 of the target perform and don't leave it. in contrast to the exploration characteristics of 
 Associate in Nursing algorithmic program describes the power of the algorithmic program to 
 depart this peak and look for higher resolution. 
+
+
+
 ● Chaotic Salp swarm :- The planned Chaotic urochordate Swarm algorithmic program 
 (CSSA) is applied on fourteen unimodal and multimodal benchmarks by optimisation issues 
 and twenty benchmark datasets. 10 totally different chaotic maps square measure utilized to 
 reinforce the convergence rate and ensuing preciseness. Simulation results showed that the 
 planned CSSA may be a promising algorithmic program. Also, the results reveal the aptitude 
 of CSSA find Associate in Nursing optimum feature set, that maximizes the classification 
-accuracy, whereas minimizing the number of elect options. Population primarily based metaheuristic algorithms share varies benefits embrace quantifiability, simplicity and process time 
+accuracy, whereas minimizing the number of elect options. Population primarily based metaheuristic algorithms share varies benefits embrace quantifiability, simplicity and process time 
 reduction. However, these algorithms have 2 main disadvantages:- recession in native optima 
 and low convergence rate. a technique to beat these issues and enhance the performance of 
 meta-heuristic algorithms is to deploy the chaos theory. Chaotic maps square measure used 
@@ -211,6 +225,8 @@ rather than random numbers in PSO primarily based algorithms to reinforce the co
 during this manner, authors introduce a chaotic primarily based independent agency (CSSA), 
 that replaces random variables with chaotic ones. CSSA uses chaotic maps to regulate the worth 
 of the second constant.
+
+
 • Grey Wolf Optimization: - The GWO algorithmic program that relies on social behaviour
 of grey wolves is planned by Mirjalili in 2014. The searching behaviour of wolves and therefore 
 the social hierarchy between wolf’s square measure sculpturesque mathematically to style the 
@@ -224,3 +240,39 @@ searching organization is radio-controlled by alpha, beta and delta. and therefo
 that assumed as omega follow these 3 leader wolves. Encircling Prey: The grey wolves 
 surround the victim throughout the searching. It shows the updated position of every member 
 in population throughout skirting.
+
+
+ Conclusion
+ 
+In this project, 3 parameters are taken into account i.e. Accuracy, False Fail Rate and False 
+Pass Rate for each of the algorithm used. False pass Rate, False Fail Rate and Accuracy error 
+of K-Means are calculated a seen that and it is not optimized solution. optimization of K-Means is done using Salp, Chaotic Salp and GWO. Accuracy, False Pass Rate and False Fail Rate error of K-Means using Salp are also calculated and seen that it is optimized result but 
+is also lag when data is large. So, Similarly, Accuracy, False Pass Rate and False Fail Rate 
+of K-Means using Chaotic Salp swarm are calculated is also show optimized result but is 
+also have its own drawbacks. By seeing these result, it can be clearly visualized that the 
+result of K-Means is improved using Salp Swarm Optimization and Chaotic Salp Swarm 
+Optimization, But the most important is that it struck in local optima when it has to deal with 
+high dimension so it will unable to give optimum result so for that using Grey Wolf 
+Optimization is used such that it will not stuck in high dimensional and it has been visualized 
+in above graph which is screenshot. By which is can be clearly seen that result is further 
+more optimized. using grey wolf optimization we have seen that cluster of K-means is 
+optimized and its performance is improved as gwo is free from the initialization of input 
+parameters.
+
+
+Future Work
+Ant Colony Optimization:- The Ant colony optimisation algorithmic program (ACO) may 
+be a probabilistic technique for determination procedure issues which might be reduced to 
+finding smart methods through graphs. Artificial ants represent multi-agent strategies 
+impressed by the behaviour of real ants. The pheromone-based communication of biological 
+ants is usually the predominant paradigm used. Mixtures of artificial ants and native search 
+algorithms became a technique of selection for various optimisation tasks involving some 
+style of graph
+.
+Bat Algorithm :- The Bat formula could be a metaheuristic formula for international 
+optimisation. it had been impressed by the fix behaviour of microbats, with variable pulse 
+rates of emission and loudness. Bees Algorithm:- The Bees rule could be a population-based search. It mimics the food hunt 
+behaviour of honey bee colonies. In its basic version the rule performs a sort of 
+neighbourhood search combined with international search. The sole condition for the 
+applying of the Bees rule is that some distance between the solutions is outlined. The 
+effectiveness and specific talents of the Bees rule are established during a range of studies.
